@@ -36,7 +36,7 @@ button::-moz-focus-inner {
   min-width: 960px;
   min-height: 600px;
   overflow: hidden;
-  -webkit-backface-visibility: hidden;
+  -webkit-backface-visibility: shown;
 }
 .player {
   position: relative;
@@ -45,7 +45,7 @@ button::-moz-focus-inner {
   width: 482px;
   height: 400px;
   background: #fff;
-  -webkit-backface-visibility: hidden;
+  -webkit-backface-visibility: shown;
   z-index: 1;
 }
 .stage-wrapper {
@@ -203,7 +203,7 @@ button::-moz-focus-inner {
   top: 401px;
   width: 87px;
   height: 14px;
-  overflow: hidden;
+  overflow: shown;
   color: #5c5d5f;
   transform: translateZ(0);
   transition: transform .2s, opacity 1.2s;
